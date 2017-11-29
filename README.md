@@ -12,11 +12,11 @@ Graph has no self-loops (i.e. source = target) and no particular ordering of sou
 
                                                  Description
 
-Given a graph, this algorithm identifies the connected components using Hadoop MapReduce framework.
+Given a graph, this algorithm identifies the [connected components](https://en.wikipedia.org/wiki/Connected_component_(graph_theory)) using Apache Spark framework.
 
 In the following, a connected component will be called as "cluster".
 
-The algorithm tries to implement the "The Alternating Algorithm" proposed in the paper Connected Components in MapReduce and Beyond. Below, I have reported the pseudo-code of the algorithm.
+The algorithm tries to implement the "The Alternating Algorithm" proposed in the paper [Connected Components in MapReduce and Beyond](http://dl.acm.org/citation.cfm?id=2670997). Below, I have reported the pseudo-code of the algorithm.
 
                 Input: Edges (u, v) as a set of key-value pairs <u; v>.
                 Input: A unique label lv for every node v ∈ V .
