@@ -1,6 +1,6 @@
 # Connected-Components-using-Apache-Spark
 
-                                                Objective
+### Objective
                                                 
 Your task in this assignment is to implement efficient end-to-end Apache Spark program for finding connected components. We make several assumptions:
 
@@ -10,7 +10,7 @@ The graph is represented by a list of edges in the form source target, where sou
 
 Graph has no self-loops (i.e. source = target) and no particular ordering of source, target is assumed.
 
-                                                 Description
+### Description
 
 Given a graph, this algorithm identifies the [connected components](https://en.wikipedia.org/wiki/Connected_component_(graph_theory)) using Apache Spark framework.
 
