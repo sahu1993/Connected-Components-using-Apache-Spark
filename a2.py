@@ -1,7 +1,4 @@
-''' * YOUR_FIRST_NAME - Shivam
- *  YOUR_LAST_NAME - Sahuu
- *  YOUR_UBIT_NAME - ssahu3
- '''
+
 from pyspark import SparkConf, SparkContext
 import sys
 import itertools
